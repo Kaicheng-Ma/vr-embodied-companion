@@ -1,0 +1,70 @@
+{
+  "frame": {
+    "schema_version": "version_A_1.0.1",
+    "request_id": "sample_s2_blocked_request",
+    "frame_index": 3,
+    "build_time_seconds": 0.3,
+    "time_since_startup": 0.3,
+    "delta_time": 0.016,
+    "unscaled_delta_time": 0.016
+  },
+  "control": {
+    "companion_enabled": true,
+    "shutdown_signal": false,
+    "ai_enabled": false,
+    "fallback_enabled": true
+  },
+  "task": {
+    "campfire_started": true,
+    "stick_picked": false,
+    "marshmallow_skewered": false,
+    "marshmallow_in_roasting_zone": false,
+    "roasting_duration_reached": false,
+    "marshmallow_eaten": false,
+    "current_roasting_time": 0.0,
+    "required_roasting_duration": 6.0,
+    "roasting_progress": 0.0
+  },
+  "player": {
+    "has_player_root": true,
+    "has_player_head": true,
+    "position": { "x": 0.0, "y": 0.0, "z": 0.0 },
+    "forward": { "x": 0.0, "y": 0.0, "z": 1.0 },
+    "distance_to_campfire": 1.5
+  },
+  "companion": {
+    "current_state": "S2_fire_ready_companion",
+    "previous_state": "S1_pre_fire_free_companion",
+    "state_changed": true,
+    "state_reason": "Campfire has started and the stick is not picked yet.",
+    "position": { "x": 3.2, "y": 0.0, "z": 1.5 },
+    "forward": { "x": 0.0, "y": 0.0, "z": 1.0 },
+    "is_inside_interaction_area": false,
+    "is_at_valid_roasting_anchor": false,
+    "current_anchor_id": "",
+    "moving": false
+  },
+  "scene": {
+    "campfire_available": true,
+    "campfire_center_available": true,
+    "interaction_area_available": true,
+    "roasting_anchors": [],
+    "look_targets_available": {
+      "campfire_center": true,
+      "player_head": true,
+      "neutral_forward": true
+    }
+  },
+  "entry_checks": {
+    "companion_inside_interaction_area": false,
+    "companion_at_valid_roasting_anchor": false,
+    "nearest_free_roasting_anchor_id": "Anchor_1",
+    "nearest_valid_interaction_area_point_id": "interaction_area_center"
+  },
+  "events": {
+    "state_change_id": 3,
+    "recent_events": [
+      "sample_s2_blocked"
+    ]
+  }
+}
